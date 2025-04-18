@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int a,b,;
+float Avg;
+int main(){
+    printf("Enter the numbers:");
+    scanf("%d%d",&a,&b);
+
+    Avg = (a + b)/2;
+    printf("Average of two numbers is %f ", Avg);
+    return 0 ;
+
+}
